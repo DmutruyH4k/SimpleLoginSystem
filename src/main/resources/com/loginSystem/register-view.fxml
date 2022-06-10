@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.timp.zachet.zachetwork.LoginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" fill="#59d8df" height="77.0" layoutX="-1.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="353.0" />
+      <Label alignment="CENTER" layoutX="20.0" layoutY="14.0" prefHeight="62.0" prefWidth="308.0" text="Registration">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passwordField" layoutX="99.0" layoutY="197.0" />
+      <TextField fx:id="loginField" layoutX="99.0" layoutY="137.0" />
+      <Label alignment="CENTER" layoutX="99.0" layoutY="112.0" prefHeight="26.0" prefWidth="150.0" text="Login">
+         <font>
+            <Font name="Serif Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="172.0" prefHeight="26.0" prefWidth="150.0" text="Password">
+         <font>
+            <Font name="Serif Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="118.0" layoutY="248.0" mnemonicParsing="false" onAction="#onRegisterButtonClick" prefHeight="45.0" prefWidth="115.0" text="Register">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="140.0" layoutY="301.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="35.0" prefWidth="66.0" text="Back">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="registerText" alignment="CENTER" layoutY="339.0" prefHeight="62.0" prefWidth="354.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Consolas" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
